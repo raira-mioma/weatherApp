@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>Weather app</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+	
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="jumbotron" id="main">
+  <h1 class="text-center">Subeta's weather app</h1>
+    <p class="text-center" id="weather">
+		<p class="text-center" id="location"></p>
+		<p class="text-center" id="temperature"></p>
+		<p class="text-center" id="description"></p>
+	</p>
+	
+		
+		<div class="col-md-4 center-block">
+		</div>
+	
+		<div class="col-md-4 center-block">
+			<button type="button" class="btn btn-success btn-block" onclick="celsiusToFahrenheit()">  Switch °C / °F </button>
+		</div>
+	
+  </div>
+  
+
+  
+</div>
+
+</body>
+</html>
